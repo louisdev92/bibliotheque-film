@@ -3,7 +3,7 @@
 @section('title', 'Ajouter un film - Alcolociné')
 
 @section('content')
-    <div class="container">
+    <divv class="container">
         <div class="mb-4 text-center">
             <h1 class="text-warning">🍿 Ajouter un nouveau shot cinématographique</h1>
             <p class="fst-italic">Parce qu’un chef-d’œuvre ou une purge, ça se note !</p>
@@ -44,5 +44,5 @@
         <div class="text-center">
             <a href="{{ route('films.index') }}" class="btn btn-outline-secondary">← Retour à la cave à films</a>
         </div>
-    </div>
+    </divv>
 @endsection
